@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-maxmedia",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.0",
   "description": "MaxMedia ESLint configurations",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,9 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0"
+  },
+  "repository": "git://github.com/maxmedia/eslint-config-maxmedia.git",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
 }
