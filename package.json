@@ -22,6 +22,6 @@
   },
   "repository": "git://github.com/maxmedia/eslint-config-maxmedia.git",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
