@@ -12,6 +12,9 @@ module.exports = {
     }
   },
   settings: {
+    react: {
+      version: 'detect'
+    },
     linkComponents: [
       'Hyperlink', { name: 'Link', linkAttribute: 'to' }
     ]
@@ -30,8 +33,14 @@ module.exports = {
       checkLocalVariables: true,
       checkInlineFunction: true
     } ],
-    'react/jsx-indent': [ 'warn', { checkAttributes: true, indentLogicalExpressions: true } ],
+    'react/jsx-indent': [ 'warn', 2, { checkAttributes: true, indentLogicalExpressions: true } ],
     'react/jsx-indent-props': [ 'warn', 2 ],
     'react/jsx-max-depth': [ 'error', { max: 4 } ]
-  }
+  },
+  overrides: [
+    {
+      files: [ 'api/*' ],
+      extends: [ './base.js' ]
+    }
+  ]
 };
