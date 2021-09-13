@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-maxmedia",
+  "name": "@maxmedia/eslint-config-maxmedia",
   "version": "1.0.0-alpha.0",
   "description": "MaxMedia ESLint configurations",
   "main": "index.js",
@@ -11,7 +11,6 @@
   ],
   "author": "MaxMedia",
   "license": "UNLICENSED",
-  "private": true,
   "peerDependencies": {
     "eslint": "^7.32.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
