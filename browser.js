@@ -1,5 +1,5 @@
 module.exports = {
-  extends: [ './.base.js' ],
+  extends: [ './base.js' ],
   env: {
     node: false,
     browser: true
