@@ -1,6 +1,6 @@
 {
   "name": "@maxmedia/eslint-config-maxmedia",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0",
   "description": "MaxMedia ESLint configurations",
   "main": "index.js",
   "scripts": {
