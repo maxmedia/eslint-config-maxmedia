@@ -9,8 +9,13 @@ npm login --registry=https://npm.pkg.github.com --scope=@maxmedia
 ```
 3. Install to your package:
 ```sh
-npm install @maxmedia/eslint-config-maxmedia --save-dev
+npm install eslint @maxmedia/eslint-config-maxmedia --save-dev
 ```
+4. For React, you'll need to also install:
+```sh
+npm install eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks --save-dev
+```
+
 
 ## ESLint Configurations
 
