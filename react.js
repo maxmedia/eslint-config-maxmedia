@@ -35,7 +35,7 @@ module.exports = {
     } ],
     'react/jsx-indent': [ 'warn', 2, { checkAttributes: true, indentLogicalExpressions: true } ],
     'react/jsx-indent-props': [ 'warn', 2 ],
-    'react/jsx-max-depth': [ 'error', { max: 4 } ]
+    'react/jsx-max-depth': [ 'error', { max: 6 } ]
   },
   overrides: [
     {
